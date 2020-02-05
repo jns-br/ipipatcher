@@ -5,8 +5,7 @@
   "author": "Jonas Bauer",
   "private": true,
   "scripts": {
-    "start": "node ipipatchServer.js",
-    "stop": "node build/dev-server.stop.js"
+    "start": "node ipipatchServer.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -14,8 +13,6 @@
     "express-csp-header": "^2.3.2",
     "jquery": "^3.1.1",
     "mongoose": "^5.8.10",
-    "request": "^2.88.0",
-    "request-promise": "^4.2.5",
     "survey-creator": "^1.0.79",
     "survey-pdf": "latest",
     "survey-vue": "^1.0.79",

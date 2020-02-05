@@ -48,7 +48,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1133.0, 340.0, 110.0, 66.0 ],
-					"presentation_linecount" : 3,
 					"text" : "This toggle will activate when the server is running"
 				}
 
@@ -163,8 +162,6 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
-						"node_bin_path" : "",
-						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -179,7 +176,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2134.666723132133484, 1014.666692495346069, 50.0, 22.0 ],
+					"patching_rect" : [ 1770.666723132133484, 624.666692495346069, 50.0, 22.0 ],
 					"text" : "5"
 				}
 
@@ -191,7 +188,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 2049.33338725566864, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1685.33338725566864, 620.66669237613678, 50.0, 22.0 ],
 					"text" : "5"
 				}
 
@@ -203,7 +200,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1945.333384156227112, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1581.333384156227112, 620.66669237613678, 50.0, 22.0 ],
 					"text" : "5"
 				}
 
@@ -215,7 +212,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1852.000048041343689, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1488.000048041343689, 620.66669237613678, 50.0, 22.0 ],
 					"text" : "1"
 				}
 
@@ -227,7 +224,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1779.333335638046265, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1546.333335638046265, 797.66669237613678, 50.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -239,7 +236,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1700.000043511390686, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1467.000043511390686, 797.66669237613678, 50.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -251,7 +248,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1612.000040888786316, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1379.000040888786316, 797.66669237613678, 50.0, 22.0 ],
 					"text" : "4"
 				}
 
@@ -263,7 +260,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1530.666705131530762, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1297.666705131530762, 797.66669237613678, 50.0, 22.0 ],
 					"text" : "2"
 				}
 
@@ -275,7 +272,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1414.749998569488525, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1181.749998569488525, 652.66669237613678, 50.0, 22.0 ],
 					"text" : "4"
 				}
 
@@ -287,7 +284,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1330.666699171066284, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1097.666699171066284, 652.66669237613678, 50.0, 22.0 ],
 					"text" : "5"
 				}
 
@@ -299,7 +296,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1245.33336329460144, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 1012.33336329460144, 652.66669237613678, 50.0, 22.0 ],
 					"text" : "5"
 				}
 
@@ -311,7 +308,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1178.666694641113281, 1010.66669237613678, 50.0, 22.0 ],
+					"patching_rect" : [ 945.666694641113281, 652.66669237613678, 50.0, 22.0 ],
 					"text" : "1"
 				}
 
@@ -323,7 +320,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1063.833321571350098, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 1008.833321571350098, 780.500010013580322, 50.0, 22.0 ],
 					"text" : "5"
 				}
 
@@ -335,7 +332,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 932.000020623207092, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 877.000020623207092, 780.500010013580322, 50.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -347,7 +344,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 828.000017523765564, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 773.000017523765564, 780.500010013580322, 50.0, 22.0 ],
 					"text" : "5"
 				}
 
@@ -359,7 +356,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 732.333321571350098, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 677.333321571350098, 780.500010013580322, 50.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -372,7 +369,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1846.666686773300171, 939.330005125999492, 365.0, 35.0 ],
+					"patching_rect" : [ 1482.666686773300171, 549.330005125999492, 365.0, 35.0 ],
 					"text" : "dict.unpack vividImagination: abstractUnderstanding: abstractInterest: noImagination:"
 				}
 
@@ -384,7 +381,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1522.666664242744446, 939.16667640209198, 306.666671395301819, 22.0 ],
+					"patching_rect" : [ 1289.666664242744446, 726.16667640209198, 306.666671395301819, 22.0 ],
 					"text" : "dict.unpack moodSwings: upset: relaxed: blue:"
 				}
 
@@ -396,7 +393,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1165.74999725818634, 939.16667640209198, 299.000001311302185, 22.0 ],
+					"patching_rect" : [ 932.74999725818634, 581.16667640209198, 299.000001311302185, 22.0 ],
 					"text" : "dict.unpack chores: order: forgetThings: mess:"
 				}
 
@@ -408,7 +405,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 732.333321571350098, 939.16667640209198, 390.0, 22.0 ],
+					"patching_rect" : [ 689.333321571350098, 714.16667640209198, 390.0, 22.0 ],
 					"text" : "dict.unpack sympathize: othersEmos: interestInOthers: othersProblems:"
 				}
 
@@ -420,7 +417,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 627.499990105628967, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 706.499990105628967, 596.500010013580322, 50.0, 22.0 ],
 					"text" : "2"
 				}
 
@@ -432,7 +429,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 512.499990105628967, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 591.499990105628967, 596.500010013580322, 50.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -444,7 +441,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 397.499990105628967, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 476.499990105628967, 596.500010013580322, 50.0, 22.0 ],
 					"text" : "3"
 				}
 
@@ -456,7 +453,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 282.499990105628967, 1010.500010013580322, 50.0, 22.0 ],
+					"patching_rect" : [ 361.499990105628967, 596.500010013580322, 50.0, 22.0 ],
 					"text" : "2"
 				}
 
@@ -468,7 +465,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 313.499990105628967, 939.16667640209198, 364.0, 22.0 ],
+					"patching_rect" : [ 392.499990105628967, 522.16667640209198, 364.0, 22.0 ],
 					"text" : "dict.unpack lifeOfParty: talkAtParties: dontTalk: keepInBackground:"
 				}
 
@@ -480,7 +477,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"outlettype" : [ "", "", "", "", "" ],
-					"patching_rect" : [ 848.333321571350098, 677.083338260650635, 467.0, 22.0 ],
+					"patching_rect" : [ 871.333321571350098, 459.083338260650635, 467.0, 22.0 ],
 					"text" : "dict.unpack extraversion: agreeableness: conscientiousness: neuroticism: imagination:"
 				}
 
@@ -568,6 +565,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 0,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 0
 					}
 ,
@@ -859,10 +858,10 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "ipipatchServer.js",
-				"bootpath" : "~/WebstormProjects/ipipproject/server",
-				"patcherrelativepath" : "../server",
-				"type" : "TEXT",
+				"name" : "server",
+				"bootpath" : "~/WebstormProjects/ipipproject",
+				"patcherrelativepath" : "..",
+				"type" : "fold",
 				"implicit" : 1
 			}
  ],

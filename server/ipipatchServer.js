@@ -6,25 +6,19 @@ if (!process.env.NODE_ENV) {
 }
 
 const csp = require('express-csp-header');
-const request = require('request-promise');
-const opn = require('opn');
 const bodyparser = require('body-parser');
 const path = require('path');
 const express = require('express');
 const webpack = require('webpack');
 const proxyMiddleware = require('http-proxy-middleware');
-const webpackConfig = process.env.NODE_ENV === 'testing'
-  ? require('./build/webpack.prod.conf')
-  : require('./build/webpack.dev.conf');
+const webpackConfig = require('./build/webpack.dev.conf');
 const DBService = require('./build/DBService');
 const ResultRepo = require('./build/ResultRepo');
 const Max = require('max-api');
-const maxPort = config.dev.env.MAX_SERVER;
 
 // default port where dev server listens for incoming traffic
 const port = process.env.PORT || config.dev.port;
-// automatically open browser, if not set will be false
-const autoOpenBrowser = !!config.dev.autoOpenBrowser;
+
 // Define HTTP proxies to your custom API backend
 // https://github.com/chimurai/http-proxy-middleware
 const proxyTable = config.dev.proxyTable;
@@ -97,13 +91,6 @@ app.post('/', async (req, res) => {
 
     await Max.outlet(entry);
 
-/*    await request({
-      method: 'POST',
-      uri: maxPort,
-      body: entry,
-      json: true
-    });
-*/
     res.json()
   } catch (err) {
     console.error(err.status);

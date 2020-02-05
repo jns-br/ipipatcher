@@ -2,7 +2,7 @@
 	"name" : "ipipproject",
 	"version" : 1,
 	"creationdate" : 3663494453,
-	"modificationdate" : 3663752168,
+	"modificationdate" : 3663767253,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,10 +21,6 @@
 		"code" : 		{
 
 		}
-,
-		"other" : 		{
-
-		}
 
 	}
 ,
@@ -39,7 +35,7 @@
 			"label" : "",
 			"recursive" : 1,
 			"enabled" : 1,
-			"includeincollective" : 1
+			"includeincollective" : 0
 		}
 
 	}

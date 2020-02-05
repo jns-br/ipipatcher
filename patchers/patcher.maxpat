@@ -438,7 +438,7 @@
 						"watch" : 0
 					}
 ,
-					"text" : "node.script newServer.js"
+					"text" : "node.script ipipatchServer.js"
 				}
 
 			}
@@ -676,7 +676,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "newServer.js",
+				"name" : "ipipatchServer.js",
 				"bootpath" : "~/WebstormProjects/ipipproject/server",
 				"patcherrelativepath" : "../server",
 				"type" : "TEXT",

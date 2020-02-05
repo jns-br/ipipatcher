@@ -1,16 +1,11 @@
 {
-  "name": "surveyjs_vue_quickstart",
+  "name": "ipipatch",
   "version": "1.0.0",
-  "description": "A Vue.js project",
-  "author": "tsv2013 <tsv2013@users.noreply.github.com>",
+  "description": "Mini-IPIP generating through MAX",
+  "author": "Jonas Bauer",
   "private": true,
   "scripts": {
-    "start": "node build/dev-server.js",
-    "build": "node build/build.js",
-    "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
-    "e2e": "node test/e2e/runner.js",
-    "test": "npm run unit && npm run e2e",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
+    "start": "node ipipatchServer.js",
     "stop": "node build/dev-server.stop.js"
   },
   "dependencies": {

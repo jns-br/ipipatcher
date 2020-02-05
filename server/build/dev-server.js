@@ -18,6 +18,8 @@ const webpackConfig = process.env.NODE_ENV === 'testing'
   : require('./webpack.dev.conf');
 const DBService = require('./DBService');
 const ResultRepo = require('./ResultRepo');
+const http = require('http');
+
 
 const maxPort = config.dev.env.MAX_SERVER;
 
@@ -110,14 +112,16 @@ app.post('/', async (req, res) => {
 
 });
 
-module.exports = app.listen(port, function (err) {
-  if (err) {
-    console.log(err);
-    return
-  }
+const server = http.createServer(app);
+module.exports = server.listen(port, () => {
+  console.log('HTTP server listening on port 80');
+});
 
-  // when env is testing, don't need open it
-  if (autoOpenBrowser && process.env.NODE_ENV !== 'testing') {
-    opn(uri)
-  }
-})
+const io = require('socket.io')(server);
+io.on('connection', (socketServer) => {
+  socketServer.on('npmStop', () => {
+    process.exit(0);
+  });
+});
+
+

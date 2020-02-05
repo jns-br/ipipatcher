@@ -2,7 +2,7 @@
 	"name" : "ipipproject",
 	"version" : 1,
 	"creationdate" : 3663494453,
-	"modificationdate" : 3663494931,
+	"modificationdate" : 3663752168,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -17,6 +17,14 @@
 			}
 
 		}
+,
+		"code" : 		{
+
+		}
+,
+		"other" : 		{
+
+		}
 
 	}
 ,
@@ -25,6 +33,14 @@
 	}
 ,
 	"searchpath" : 	{
+		"0" : 		{
+			"bootpath" : "~/WebstormProjects/ipipproject/server",
+			"projectrelativepath" : "./server",
+			"label" : "",
+			"recursive" : 1,
+			"enabled" : 1,
+			"includeincollective" : 1
+		}
 
 	}
 ,

@@ -95,13 +95,15 @@ app.post('/', async (req, res) => {
 
     const entry = await ResultRepo.saveResult(result);
 
-    await request({
+    await Max.outlet(entry);
+
+/*    await request({
       method: 'POST',
       uri: maxPort,
       body: entry,
       json: true
     });
-
+*/
     res.json()
   } catch (err) {
     console.error(err.status);

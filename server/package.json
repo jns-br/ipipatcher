@@ -5,12 +5,13 @@
   "author": "tsv2013 <tsv2013@users.noreply.github.com>",
   "private": true,
   "scripts": {
-    "dev": "node build/dev-server.js",
+    "start": "node build/dev-server.js",
     "build": "node build/build.js",
     "unit": "cross-env BABEL_ENV=test karma start test/unit/karma.conf.js --single-run",
     "e2e": "node test/e2e/runner.js",
     "test": "npm run unit && npm run e2e",
-    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs"
+    "lint": "eslint --ext .js,.vue src test/unit/specs test/e2e/specs",
+    "stop": "node build/dev-server.stop.js"
   },
   "dependencies": {
     "body-parser": "^1.19.0",
@@ -24,7 +25,9 @@
     "survey-pdf": "latest",
     "survey-vue": "^1.0.79",
     "surveyjs-widgets": "^1.0.79",
-    "vue": "^2.2.2"
+    "vue": "^2.2.2",
+    "socket.io": "latest",
+    "socket.io-client": "latest"
   },
   "devDependencies": {
     "autoprefixer": "^6.7.2",

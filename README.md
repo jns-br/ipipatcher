@@ -1,4 +1,4 @@
-# Mini-IPIP-MaxPatch
+# ipipatcher
 
 ## Description
     Project to create MaxPatch based on Mini-IPIP

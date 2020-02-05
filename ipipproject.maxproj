@@ -2,7 +2,7 @@
 	"name" : "ipipproject",
 	"version" : 1,
 	"creationdate" : 3663494453,
-	"modificationdate" : 3663767253,
+	"modificationdate" : 3663771767,
 	"viewrect" : [ 25.0, 104.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -46,5 +46,5 @@
 	"devpathtype" : 0,
 	"devpath" : ".",
 	"sortmode" : 0,
-	"viewmode" : 0
+	"viewmode" : 1
 }

@@ -57,7 +57,11 @@ export default {
             'Content-Type': 'application/json'
           },
           body: JSON.stringify(data)
-        })
+        });
+        setTimeout(() => {
+          this.survey.clear();
+          this.survey.render();
+        }, 180000)
       })
     }
   },

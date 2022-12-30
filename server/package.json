@@ -10,7 +10,7 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "bootstrap": "^3.3.7",
-    "express-csp-header": "^2.3.2",
+    "express-csp-header": "^5.1.0",
     "jquery": "^3.1.1",
     "mongoose": "^5.8.10",
     "survey-creator": "^1.0.79",
@@ -65,7 +65,7 @@
     "karma-webpack": "^3.0.5",
     "lolex": "^1.5.2",
     "mocha": "^5.2.0",
-    "nightwatch": "^1.0.18",
+    "nightwatch": "^1.4.0",
     "opn": "^4.0.2",
     "optimize-css-assets-webpack-plugin": "^1.3.0",
     "ora": "^1.1.0",
